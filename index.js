@@ -10,9 +10,7 @@ app.get('/teams',function(req, res){
 
 });
 
-app.listen(3000, function() {
-	console.log('app listening on the port!');
-});
+
 
 var list = require("./nba-teams.json");
 
